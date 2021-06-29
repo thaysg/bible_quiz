@@ -1,0 +1,46 @@
+name: bible_quiz
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  share_plus: ^2.0.1
+  circular_countdown_timer: ^0.2.0
+  google_fonts: ^2.0.0
+  google_mobile_ads: ^0.13.1
+   
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "#000099"
+  adaptive_icon_foreground: "assets/images/logo.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/database/
+
+  fonts:
+    - family: Regular 400
+      fonts:
+        - asset: fonts/BebasNeue-Regular.ttf
+
+  
